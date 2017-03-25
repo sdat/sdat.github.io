@@ -63,7 +63,7 @@
 										<p>The tilapia you eat in Taiwan, most are from Sheng-Diao Aquatic Technology! With the experience of nearly 20 years, Huang Cheng-Xian breeds about 50 million fish fry, which not only supply Taiwan fish farms but also exported to the China, Thailand, Malaysia and other countries.
 										</p>
 										<p>Sheng-Diao Aquatic Technology of Taiwan, SDAT was established in 1978, and in foot of Dawu Mountain, Xinpi, Pingtung County. The two major items for business are
-										<br><strong>(1) Selection of high quality tilapia strains</strong>: Taiwan tilapia and Taiwan red tilapia brooder stock and commercial fish production
+										<br><strong>(1) Selection of high quality tilapia strains</strong>: Taiwan tilapia (<i>Oreochromis niloticus</i>) and Taiwan red tilapia (<i>Oreochromis</i> spp.) brooder stock and commercial fish production
 										<br><strong>(2) Planning systematic rearing facilities, design, R&D.</strong>
 										<br><br>
 										In 2012, we built "<strong>SD tilapia</strong>" strains. The male ratio of SD tilapia is up to 95%. <br><strong>There is no use of male hormone or other drugs</strong>. In addition, SD tilapia is large size, fast-growing, heavy fillet, low feed conversion rates, and excellent resistance to disease, etc., better than rest strains.
@@ -82,7 +82,7 @@
 									<div class="content" >
 										<h2 class="major">Planning, design and R&D systematic rearing facilities</h2>
 										<p>
-										We invent aquaculture facilities (e.g., movable aerators and water circulation system) to improve efficiency of aquaculture facilities, energy-saving, and lower costs.
+										We invent aquaculture facilities (e.g., automatic feeding control device, movable aerators and water circulation system) to improve efficiency of aquaculture facilities, energy-saving, and lower costs.
 										<br>
 										Our proud invention equipment, <strong>Movable aerator</strong> can effectively save cost of electricity, expand the scope of the disturbance, prevent temperature stratification, and avoiding erosion of fishpond bottom.
 										</p>
@@ -190,10 +190,12 @@
 								<li class="fa-commenting-o">Line：<a href="https://line.me/R/ti/p/%40ote3062p" target="_blank">@ote3062p</a></li>
 								<li class="fa-facebook">Facebook Page：<a href="https://facebook.com/SDAT.Taiwan/" target="_blank">聖鯛水產科技 (SDAT-Taiwan)</a></li>
 							</ul>
-							<ul class="contact">
+							<ul id="embedded-items" class="contact" >
+							<!-- Execute by jQuery after html lodaing
 								<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E8%2581%2596%25E9%25AF%259B%25E6%25B0%25B4%25E7%2594%25A2%25E7%25A7%2591%25E6%258A%2580-260523327624429%2F&tabs&width=500&height=250&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=503628439714172" width="100%" height="250" style="border:none;overflow:hidden;
 			padding: 0 1.5em 1em 0;" scrolling="no" frameborder="0" allowTransparency="true"></iframe> 
 								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.4879177512453!2d120.57661447716596!3d22.485869841892594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e208d37fabc69%3A0x8524da27b0e58b06!2z6IGW6a-b5rC055Si56eR5oqA!5e0!3m2!1szh-TW!2stw!4v1469889286693" width="100%" height="225" frameborder="0" style="border:0; padding: 0 1.5em 1em 0;" allowfullscreen></iframe>
+							-->
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Sheng-Diao Aquatic Technology Inc. All rights reserved.</li>
@@ -221,5 +223,12 @@
 			  ga('send', 'pageview');
 			</script>
 			<!-- End: Google Analytics -->
+			<!-- Start: Execute embedded items afert html loading -->
+			<script>
+			$(window).load(function()  { 
+			    $("#embedded-items").append('<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E8%2581%2596%25E9%25AF%259B%25E6%25B0%25B4%25E7%2594%25A2%25E7%25A7%2591%25E6%258A%2580-260523327624429%2F&tabs&width=500&height=250&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=503628439714172\" width=\"100%\" height=\"250\" style=\"border:none;overflow:hidden; padding: 0 1.5em 1em 0;\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe> <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.4879177512453!2d120.57661447716596!3d22.485869841892594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e208d37fabc69%3A0x8524da27b0e58b06!2z6IGW6a-b5rC055Si56eR5oqA!5e0!3m2!1szh-TW!2stw!4v1469889286693\" width=\"100%\" height=\"225\" frameborder=\"0\" style=\"border:0; padding: 0 1.5em 1em 0;\" allowfullscreen></iframe>');
+			});
+			</script>
+			<!-- End: Execute embedded items afert html loading -->
 	</body>
 </html>

@@ -64,8 +64,8 @@
 									<div class="content" style="text-align: left">
 										<h2 class="major">公司簡介</h2>
 										<p>本公司成立於西元1978年，位於大武山下屏東縣新埤鄉，目前主要經營項目為 
-										<br><strong>(1) 選育優質吳郭魚品系</strong>：臺灣鯛、紅尼羅魚種群及商用養殖魚苗的生產
-										<br><strong>(2) 系統化養殖設施的規劃、設計及研發</strong>
+										<br><strong>(1) 選育優質吳郭魚品系</strong>：臺灣鯛 (<i>Oreochromis niloticus</i>)、紅尼羅魚 (<i>Oreochromis</i> spp.) 種群及商用養殖魚苗的生產
+										<br><strong>(3) 規劃、設計及研發系統化養殖設施</strong>
 										<br><br>
 										本公司進駐行政院農業委員會水產試驗所育成中心，探討吳郭魚遺傳育種及配種技術，並先後技轉紅色吳郭魚TsR品系暨海水吳郭魚品系。
 										<br>
@@ -82,9 +82,9 @@
 									<div class="content" >
 										<h2 class="major">系統化養殖設施</h2>
 										<p>
-										本公司致力於改良水產繁養殖設施，將水產行業融入農業４.０模式，積極研發「可動式增氧機連結構造」、「農漁業及灌溉循環之設備」，並獲得２項新型專利。
-										<br>
-										其中「可動式增氧機連結構造」已申請多國發明專利，可以有效達到節能減碳、降低漁民養殖成本之目的。
+										本公司改良研發水產繁養殖設施，例如：「自動化餵食控制裝置」、「可動式增氧機連結構造」、「農漁業及灌溉循環之設備」，並已於多國申請發明專利。
+										將水產行業融入農業４.０模式，以有效達到節能減碳、減少人工勞力與降低漁民養殖成本之目的。
+										
 										</p>
 										<div class="youtubecontent">
 										<iframe width="560" height="315" src="https://www.youtube.com/embed/Ia8nnt3iYwg" frameborder="0" allowfullscreen></iframe><br>
@@ -204,10 +204,13 @@
 								<li class="fa-commenting-o">Line：<a href="https://line.me/R/ti/p/%40ote3062p" target="_blank">@ote3062p</a></li>
 								<li class="fa-facebook">FB 粉絲專頁：<a href="https://facebook.com/SDAT.Taiwan/" target="_blank">聖鯛水產科技 (SDAT-Taiwan)</a></li>
 							</ul>
-							<ul class="contact">
+							
+							<ul id="embedded-items" class="contact" >
+							<!-- Execute by jQuery after html lodaing
 								<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E8%2581%2596%25E9%25AF%259B%25E6%25B0%25B4%25E7%2594%25A2%25E7%25A7%2591%25E6%258A%2580-260523327624429%2F&tabs&width=500&height=250&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=503628439714172" width="100%" height="250" style="border:none;overflow:hidden;
 			padding: 0 1.5em 1em 0;" scrolling="no" frameborder="0" allowTransparency="true"></iframe> 
 								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.4879177512453!2d120.57661447716596!3d22.485869841892594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e208d37fabc69%3A0x8524da27b0e58b06!2z6IGW6a-b5rC055Si56eR5oqA!5e0!3m2!1szh-TW!2stw!4v1469889286693" width="100%" height="225" frameborder="0" style="border:0; padding: 0 1.5em 1em 0;" allowfullscreen></iframe>
+							-->
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Sheng-Diao Aquatic Technology Inc. All rights reserved.</li>
@@ -235,5 +238,13 @@
 			  ga('send', 'pageview');
 			</script>
 			<!-- End: Google Analytics -->
+			
+			<!-- Start: Execute embedded items afert html loading -->
+			<script>
+			$(window).load(function()  { 
+			    $("#embedded-items").append('<iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E8%2581%2596%25E9%25AF%259B%25E6%25B0%25B4%25E7%2594%25A2%25E7%25A7%2591%25E6%258A%2580-260523327624429%2F&tabs&width=500&height=250&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=503628439714172\" width=\"100%\" height=\"250\" style=\"border:none;overflow:hidden; padding: 0 1.5em 1em 0;\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe> <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.4879177512453!2d120.57661447716596!3d22.485869841892594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e208d37fabc69%3A0x8524da27b0e58b06!2z6IGW6a-b5rC055Si56eR5oqA!5e0!3m2!1szh-TW!2stw!4v1469889286693\" width=\"100%\" height=\"225\" frameborder=\"0\" style=\"border:0; padding: 0 1.5em 1em 0;\" allowfullscreen></iframe>');
+			});
+			</script>
+			<!-- End: Execute embedded items afert html loading -->
 	</body>
 </html>
